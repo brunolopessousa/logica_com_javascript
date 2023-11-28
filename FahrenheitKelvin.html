@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    <Script>
+        // Declração de variaveis
+        var temperatura, fahrenheit, kelvin;
+
+        // Entrada 
+        temperatura =parseFloat(prompt("Informe a temperatura em °C: "))
+
+        // Processamento
+        fahrenheit = (temperatura * 9/5) + 32
+        kelvin = temperatura + 273.15
+
+        // Saída
+        document.write("A temperatura em Kelvin é ", kelvin, " e a temperatura em fahrenheit é", fahrenheit)
+        console.log("A temperatura em kelvin é ", kelvin, " e a temperatura em fahrenheit é", fahrenheit)
+
+    </Script>
+</body>
+</html>
